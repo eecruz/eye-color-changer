@@ -49,7 +49,7 @@ public class ImageChooser extends JFrame
 		JFileChooser fileChooser = new JFileChooser();
 		int option = fileChooser.showOpenDialog(this);
 
-		// check if user clicked "Open"
+		// if user clicks "open"
 		if (option == JFileChooser.APPROVE_OPTION) 
 		{		
 			// show ImageChooser JFrame
@@ -140,7 +140,9 @@ public class ImageChooser extends JFrame
 					JFileChooser fileSaver = new JFileChooser();
 					int selection = fileSaver.showSaveDialog(ImageChooser.this);
 
-					if (selection == JFileChooser.APPROVE_OPTION) {
+					// if user clicks "save"
+					if (selection == JFileChooser.APPROVE_OPTION) 
+					{
 						// Get the selected file
 						File file = fileSaver.getSelectedFile();
 
@@ -193,8 +195,8 @@ public class ImageChooser extends JFrame
 			}
 		}
 
-		BufferedImage temp = faceDetection.getImage();
-		rightImageLabel.setIcon(new ImageIcon(temp));
+		// update label with new image
+		rightImageLabel.setIcon(new ImageIcon(newImage));
 	}
 
 	// change colors for only eyes
@@ -243,7 +245,7 @@ public class ImageChooser extends JFrame
 			System.out.println("Failed inital call for eye");
 			floodFill(image, visited, x, y+2, specs, true);
 		}
-		else if(isBlack(pixelColor) && initialCall)
+		else if(isBlack(pixelColor))
 		{
 			visited[y][x] = true;
 			return;

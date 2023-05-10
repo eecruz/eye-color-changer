@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/opencv"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/javacpp.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/javacv.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/javacv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-cppjars/ffmpeg-2.1.1-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-cppjars/opencv-2.4.8-windows-x86_64.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

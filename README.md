@@ -5,6 +5,8 @@
 This is a Java application created for Quinnipiac's SER305 Advanced Computational Problem Solving class.
 
 ## How to run this project?
+The application works best on portrait photos taken from the front, where the eyes are both large and of a lighter color.
+
 Requires OpenCV and Java (min version 8).
 
 You can download and install OpenCV here: [https://opencv.org/releases/](https://opencv.org/releases/)

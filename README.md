@@ -6,9 +6,11 @@ This is a Java application created for Quinnipiac's SER305 Advanced Computationa
 
 ## How to run this project?
 Requires OpenCV and Java (min version 8).
-You can download and install OpenCV here: [https://opencv.org/releases/](https://opencv.org/releases/)
-Instructions for configuring OpenCV can be found here: [https://docs.opencv.org/4.7.0/d1/d0a/tutorial_java_eclipse.html](https://docs.opencv.org/4.7.0/d1/d0a/tutorial_java_eclipse.html)
 
+You can download and install OpenCV here: [https://opencv.org/releases/](https://opencv.org/releases/)
+
+Instructions for configuring OpenCV can be found here: [https://docs.opencv.org/4.7.0/d1/d0a/tutorial_java_eclipse.html](https://docs.opencv.org/4.7.0/d1/d0a/tutorial_java_eclipse.html)
+##
 I recommend using an IDE such as IntelliJ or Eclipse to run this application.
 
 The main method for the application is in the default package > `EyeColorChanger.java` file.<br>
